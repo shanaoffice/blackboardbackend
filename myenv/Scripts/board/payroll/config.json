@@ -1,0 +1,37 @@
+{
+    "deduction_type" : 
+    { 
+        "custom": {
+            "serializer": "CustomPayDeductionSerializer",
+            "model": "CustomPayDeduction"
+        },
+        "manual": 
+        {
+            "serializer": "ManualPayDeductionSerializer",
+            "model": "ManualPayDeduction"
+        }
+    },
+    "allowance_type":{
+        
+        "custom": {
+            "serializer": "CustomPayAllowanceSerializer",
+            "model": "CustomPayAllowance"
+        },
+        "manual": 
+        {
+            "serializer": "ManualPayAllowanceSerializer",
+            "model": "ManualPayAllowance"
+        }
+    },
+    "Deduction": "deduction_percentage",
+    "Allowance": "allowance_percentage",
+    "Basic Pay": "basic_pay",
+    "CustomPayDeduction":"SalaryHistoryDeductionSerializer",
+    "ManualPayDeduction":"SalaryHistoryDeductionSerializer",
+    "ManualPayAllowance": "SalaryHistoryAllowanceSerializer",
+    "CustomPayAllowance": "SalaryHistoryAllowanceSerializer"
+
+    
+}
+
+
